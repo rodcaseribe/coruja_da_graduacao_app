@@ -1,0 +1,108 @@
+﻿
+
+
+<html lang="pt-BR">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+<title>Coruja da Graduacao</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta charset="UTF-8"/>
+	<meta name="description" content="Estudo Responsive"/>
+	<meta name="viewport" content="width-device-width, initial-scale-1" />
+<script language="JavaScript" type="text/JavaScript" src="https://cdseducacional.com.br/jquery/jquery-1.6.2.min.js"></script>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function Imprime(frame, pagina, parametro) {
+	var pg = pagina+parametro
+	msg=open(pg,frame);
+	msg.focus();
+	msg.print();
+//	msg.close(); 
+}
+
+function validaForm() 
+{
+	
+	if (document.form_login.senha.value.length > 8) {
+		alert("Senha deve possui no máximo 8 caracteres!");
+	} else {
+		document.form_login.action = "https://cdseducacional.com.br/default_p_amb_est_prof.asp";
+		document.form_login.submit();
+	}
+}
+
+function validaEnvioSenha()
+{
+	window.open('https://cdseducacional.com.br/esqueciMinhaSenhaDados.asp');
+}
+
+function LimpaCampo()
+{
+	document.form_login.senha.value = "";
+}
+
+ SET_ROTATABLE("girar",90,"winky",180); 
+//-->
+</script>
+<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/estilao.css">
+	
+
+
+
+<style type="text/css">
+
+
+-->
+</style>
+
+</head>
+
+<div  align="center" class="muted" ><h2>Coruja da Gradua&ccedil;&atilde;o</h2><br><div class="soccer"></div>
+
+<div class="container-fluid">
+				<div class="row-fluid">
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="document.form_login.usuario.focus();"  bgcolor="#6699FF" class="seila">
+
+<form action="#" method="post" name="form_login" target="_self" id="form_login" >
+  <table border="0" align="center" cellpadding="0" cellspacing="0" > 
+    <tr> 
+      <td background=""  align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" target="_self"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </td>
+    </tr>
+    <tr> 
+      <td  align="center" valign="top" style="padding-top:35px"  background=""><table><tr><td background=""    align="center"><table><tr><td  colspan="1"><h4>Usu&aacute;rio:</h4><input name="usuario" type="text" id="usuario" size="13" maxlength="11" style="cursor:default"></font></td></tr><tr><td  colspan="1"><h4>Senha:&nbsp;&nbsp;&nbsp;</h4><input name="senha" type="password" id="senha" size="13" maxlength="8"  ></td></tr>
+        <tr>
+          <td  colspan="1" ALIGN="CENTER " >
+          <select name="txttipo" class="text_primeira" id="txttipo" style="width: 100px; font-family: 'Oswald', sans-serif; " >
+			<option value="aluno">Aluno</option>
+            		
+          </select>          </td>
+        </tr>
+         <img  class="sombra" src="facul.png" class="row-fluid">
+        <table border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td align="left"  class="texto" onClick="validaEnvioSenha();" style="cursor:pointer;"><u>Esqueci minha senha</u></td> &nbsp;&nbsp;&nbsp;<button type="submit" class="btn" onClick="validaForm();" style="cursor:pointer; font-family: 'Oswald', sans-serif;" align="right" alt="Entrar" border="none">Entrar</button></tr>
+	<br><br><br><br>
+	<table border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr> 
+      <br><br><td align="center"><p class="well"><span class="text-success" style="font-family: 'Oswald', sans-serif;">App desenvolvido por <a href="https://www.facebook.com/rafael890hg">rodcaserib</a> <br> undergroundiscovery@gmail.com.</span></p></td>
+    </tr>
+  </table>
+</form>
+</div><audio autoplay loop>
+  <source src="coruja.wav" type="audio/mpeg" >
+</audio>
+</div>
+</body>
+</html>

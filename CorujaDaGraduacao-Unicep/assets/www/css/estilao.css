@@ -1,0 +1,55 @@
+.soccer {
+  background-image: url(corujaoo.png);
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  -webkit-animation:roll 4.5s infinite;
+  -moz-animation:roll 4.5s infinite;
+  animation:roll 4.5s infinite;
+}
+
+@-moz-keyframes roll {  
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:0px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+@-webkit-keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:0px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+
+@keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:0px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+
+.world-cup {
+  color: #82AE6F;
+  text-align: center;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+u {
+	font-family: 'Oswald', sans-serif;
+}
+
+txttipo{
+	font-family: 'Oswald', sans-serif;
+}
+
+.sombra		{
+			opacity:0.55;}
+
+	.sombra img	{position: relative;
+			top: -3px;
+			left: -3px;}
